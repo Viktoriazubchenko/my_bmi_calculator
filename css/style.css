@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #555555;
+}
+
+.bmi-calculator {
+    height: 100vh;
+    width: 100vw;
+    padding: 70px;
+    text-align: center;
+}
+.body-mass-data {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+
+.parameters {
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    border-bottom: solid 1px #555555;
+}
+
+label {
+    margin-bottom: 30px;
+}
+
+input {
+    margin-bottom: 30px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: solid 1px #555555;
+}
+span {
+    margin-left: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 18px;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    color: white;
+    border: #ff5f6d;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #ffc371, #ff5f6d);
+}
+.btn:active {
+    transform: scale(1.1);
+}
+
+.bmi-num, .diagnosis {
+    margin-left: 0;
+}
